@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Ni Ni - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css" rel="stylesheet">
+</head>
+
+<body>
+    Navigation
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">San Ni Ni</div>
+
+
+                <div class="nav-links desktop-nav">
+                    <button class="nav-link active" data-section="home">Home</button>
+                    <button class="nav-link" data-section="about">About</button>
+                    <button class="nav-link" data-section="skills">Skills</button>
+                    <button class="nav-link" data-section="education">Education</button>
+                    <button class="nav-link" data-section="projects">Projects</button>
+                    <button class="nav-link" data-section="contact">Contact</button>
+                </div>
+
+
+                <button class="mobile-menu-btn">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon hidden"></i>
+                </button>
+            </div>
+
+
+            <div class="mobile-nav hidden">
+                <button class="nav-link mobile-link active" data-section="home">Home</button>
+                <button class="nav-link mobile-link" data-section="about">About</button>
+                <button class="nav-link mobile-link" data-section="skills">Skills</button>
+                <button class="nav-link mobile-link" data-section="education">Education</button>
+                <button class="nav-link mobile-link" data-section="projects">Projects</button>
+                <button class="nav-link mobile-link" data-section="contact">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    Home Section
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">
+                        Hi, I'm <span class="text-primary">San Ni Ni</span>
+                    </h1>
+                    <p class="home-subtitle">Developer</p>
+                    <p class="home-description">
+                        Software engineering student passionate about creating innovative solutions with AI, data, and
+                        full-stack development.
+                    </p>
+                    <div class="home-buttons">
+                        <button class="btn btn-primary" data-section="contact">Get In Touch</button>
+                        <a href="public/San Ni Ni CVResume.pdf" download class="btn btn-outline">
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="profile-image">
+                        <img src="public/cv6.jpg" alt="San Ni Ni">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="card">
+                    <p class="about-text">
+                        I am San Ni Ni, a software engineering student at Lithan Academy completing my Higher Diploma in
+                        Software Engineering. I have skills in programming, databases, software design, Agile project
+                        management, and full-stack development. I am passionate about using software, AI, and data to
+                        improve efficiency and create solutions with business and social impact. I believe in lifelong
+                        learning, teamwork, and sharing knowledge to make technology more accessible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Node.js</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Java</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">HTML</span>
+                <span class="skill-badge">CSS</span>
+                <span class="skill-badge">UI/UX</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="card education-card">
+                    <div class="education-info">
+                        <div class="education-details">
+                            <h3 class="education-degree">Higher Diploma in Software Engineering</h3>
+                            <p class="education-school">Lithan Academy, Yangon, Myanmar</p>
+                            <p class="education-description">
+                                Comprehensive program covering advanced software development, system design, and project
+                                management.
+                            </p>
+                        </div>
+                        <div class="education-period">Pending, 2024–2025</div>
+                    </div>
+                </div>
+
+                <div class="card education-card">
+                    <div class="education-info">
+                        <div class="education-details">
+                            <h3 class="education-degree">Level 3 Foundation Diploma in Information Technology</h3>
+                            <p class="education-school">Lithan Academy, Yangon, Myanmar</p>
+                            <p class="education-description">
+                                Foundation program covering programming fundamentals, database concepts, and IT
+                                principles.
+                            </p>
+                        </div>
+                        <div class="education-period completed">2023–2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects & Experience</h2>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <h3 class="project-title">In A Box</h3>
+                    <p class="project-description">
+                        Frontend food website showcasing menu items, responsive design, and user-friendly navigation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Bootstrap</span> <!-- include if used -->
+                    </div>
+                    <a href="https://sannini-dev.github.io/InABox/" target="_blank" rel="noopener noreferrer">
+                        <button class="btn btn-outline project-btn">
+                            <i data-lucide="external-link"></i> View Project
+                        </button>
+                    </a>
+                </div>
+
+
+                <div class="card project-card">
+                    <h3 class="project-title">DoBu Martial Arts</h3>
+                    <p class="project-description">
+                        Frontend martial arts/gym website showcasing classes, trainers, schedules, and membership
+                        information.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Bootstrap</span> <!-- include if used -->
+                    </div>
+                    <a href="https://sannini-dev.github.io/DoBuMartialArts/" class="btn btn-outline project-btn"
+                        target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="external-link"></i>
+                        View Project
+                    </a>
+                </div>
+                <div class="card project-card">
+                    <h3 class="project-title">AI Chatbot</h3>
+                    <p class="project-description">
+                        Interactive AI chatbot designed to assist users, answer questions, and provide support using
+                        intelligent responses.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Python</span> <!-- if backend uses Python -->
+                        <span class="tech-badge">Flask</span> <!-- include if backend uses Flask -->
+                    </div>
+                    <a href="YOUR_PROJECT_LINK_HERE" class="btn btn-outline project-btn" target="_blank"
+                        rel="noopener noreferrer">
+                        <i data-lucide="external-link"></i>
+                        View Project
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="card">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h3 class="contact-title">Get In Touch</h3>
+                            <p class="contact-description">
+                                I'm always interested in new opportunities and collaborations. Feel free to reach out if
+                                you'd like to discuss projects, internships, or just connect!
+                            </p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i data-lucide="mail"></i>
+                                    <span>sannini@email.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i data-lucide="phone"></i>
+                                    <span>+95 9956 822 875</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i data-lucide="map-pin"></i>
+                                    <span>Mandalay, Myanmar</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-links">
+                            <h3 class="contact-title">Connect With Me</h3>
+                            <div class="contact-buttons">
+                                <a href="https://www.linkedin.com/in/san-ni-ni-628697286/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <button class="btn btn-outline contact-btn">
+                                        <i data-lucide="linkedin"></i>
+                                        LinkedIn Profile
+                                    </button>
+                                </a>
+                                <a href="https://github.com/SanNiNi-dev" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn btn-outline contact-btn">
+                                        <i data-lucide="github"></i>
+                                        GitHub Profile
+                                    </button>
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=3uiBSypL6B0" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <button class="btn btn-outline contact-btn">
+                                        <i data-lucide="youtube"></i>
+                                        YouTube Channel
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 San Ni Ni. All rights reserved.</p>
+                <p class="footer-subtitle">Built with passion and dedication</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
