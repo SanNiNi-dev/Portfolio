@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    Navigation
+ 
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-content">
@@ -59,62 +59,129 @@
                         full-stack development.
                     </p>
                     <div class="home-buttons">
-                        <button class="btn btn-primary" data-section="contact">Get In Touch</button>
-                        <a href="public/San Ni Ni CVResume.pdf" download class="btn btn-outline">
-                            <i data-lucide="download"></i>
-                            Download CV
-                        </a>
-                    </div>
+  <button class="btn btn-primary" data-section="contact">Get In Touch</button>
+  
+  <!-- View CV -->
+  <a href="public/San Ni Ni CVResume.pdf" target="_blank" class="btn btn-outline">
+    <i data-lucide="eye"></i>
+    View CV
+  </a>
+  
+  <!-- Download CV -->
+  <a href="public/San Ni Ni CVResume.pdf" download class="btn btn-outline">
+    <i data-lucide="download"></i>
+    Download CV
+  </a>
+</div>
+
                 </div>
                 <div class="home-image">
                     <div class="profile-image">
-                        <img src="public/cv6.jpg" alt="San Ni Ni">
+                        <img src="public/cv8.jpg" alt="San Ni Ni">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section about-section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="card">
-                    <p class="about-text">
-                        I am San Ni Ni, a software engineering student at Lithan Academy completing my Higher Diploma in
-                        Software Engineering. I have skills in programming, databases, software design, Agile project
-                        management, and full-stack development. I am passionate about using software, AI, and data to
-                        improve efficiency and create solutions with business and social impact. I believe in lifelong
-                        learning, teamwork, and sharing knowledge to make technology more accessible.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section id="about" class="section about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-card">
+        <p class="about-text">
+          I am <strong>San Ni Ni</strong>, a software engineering student at <span class="highlight">Lithan Academy</span> completing my Higher Diploma in
+          Software Engineering. I have skills in <span class="highlight">programming</span>, <span class="highlight">databases</span>, 
+          <span class="highlight">software design</span>, <span class="highlight">Agile project management</span>, and 
+          <span class="highlight">full-stack development</span>. <br><br>
+          I am passionate about using <span class="highlight">software, AI, and data</span> to
+          improve efficiency and create solutions with business and social impact. I believe in 
+          <span class="highlight">lifelong learning</span>, teamwork, and sharing knowledge to make technology more accessible.
+        </p>
+      </div>
+    </div>
+  </div>
 
+   
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
 
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <span class="skill-badge">JavaScript</span>
-                <span class="skill-badge">React</span>
-                <span class="skill-badge">Node.js</span>
-                <span class="skill-badge">Python</span>
-                <span class="skill-badge">Java</span>
-                <span class="skill-badge">SQL</span>
-                <span class="skill-badge">HTML</span>
-                <span class="skill-badge">CSS</span>
-                <span class="skill-badge">UI/UX</span>
-            </div>
+    <!-- Basic Skills -->
+    <div class="skills-category">
+      <h3>Intermediate</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5" style="color:#e34c26;"></i>
+          <span>HTML</span>
         </div>
-    </section>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt" style="color:#1572b6;"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square" style="color:#f7df1e;"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-pencil-ruler" style="color:#ff9800;"></i>
+          <span>UI/UX</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intermediate Skills -->
+    <div class="skills-category">
+      <h3>Basic</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-react" style="color:#61dafb;"></i>
+          <span>React</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-node-js" style="color:#68a063;"></i>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python" style="color:#3776ab;"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-java" style="color:#f89820;"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database" style="color:#4caf50;"></i>
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Add Font Awesome (in <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
 
     <section id="education" class="section education-section">
         <div class="container">
             <h2 class="section-title">Education</h2>
             <div class="education-content">
+                <div class="card education-card">
+  <div class="education-info">
+    <div class="education-details">
+      <h3 class="education-degree">BSc (Single Honours) Computer Science (Top-up)</h3>
+      <p class="education-school">Lithan Academy / Partner University</p>
+      <p class="education-description">
+        Advanced program focusing on computer science principles, research, and
+        specialized areas in software engineering and data-driven solutions.
+      </p>
+    </div>
+    <div class="education-period">2025–Present</div>
+  </div>
+</div>
                 <div class="card education-card">
                     <div class="education-info">
                         <div class="education-details">
@@ -125,7 +192,7 @@
                                 management.
                             </p>
                         </div>
-                        <div class="education-period">Pending, 2024–2025</div>
+                        <div class="education-period">2024–2025</div>
                     </div>
                 </div>
 
